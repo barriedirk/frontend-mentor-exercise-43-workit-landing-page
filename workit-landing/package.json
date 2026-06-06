@@ -17,6 +17,7 @@
     "@angular/forms": "^20.0.0",
     "@angular/platform-browser": "^20.0.0",
     "@angular/router": "^20.0.0",
+    "@tailwindcss/postcss": "^4.3.0",
     "class-variance-authority": "^0.7.1",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0"
@@ -35,6 +36,7 @@
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.1.0",
     "postcss": "^8.5.15",
+    "prettier-plugin-tailwindcss": "^0.8.0",
     "tailwindcss": "^4.3.0",
     "typescript": "~5.8.2"
   }
