@@ -4,10 +4,6 @@ import { Component, computed, input, signal } from '@angular/core';
   selector: 'app-card',
   imports: [],
   templateUrl: './card.html',
-  styleUrl: './card.scss',
-  host: {
-    class: 'block flex-1',
-  },
   standalone: true,
 })
 export class Card {
@@ -19,7 +15,8 @@ export class Card {
   readonly descriptionId = signal(`workit-card-desc-${this.uid}`);
 
   readonly mergedClasses = computed(() => {
-    const base = 'w-full flex flex-col justify-center items-center';
+    const base =
+      'w-full flex flex-col gap-8 justify-center items-center text-center';
 
     return [base, this.classNames()].filter(Boolean).join(' ');
   });
