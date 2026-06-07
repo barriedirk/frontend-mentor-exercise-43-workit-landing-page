@@ -38,7 +38,6 @@ export class Button {
   size = input<ButtonVariantProps['size']>('md');
   customClass = input<string>('', { alias: 'class' });
 
-  // Atributos Nativos y A11y esenciales que hacían falta
   type = input<'button' | 'submit' | 'reset'>('button');
   disabled = input<boolean>(false);
   ariaLabel = input<string | null>(null, { alias: 'aria-label' });

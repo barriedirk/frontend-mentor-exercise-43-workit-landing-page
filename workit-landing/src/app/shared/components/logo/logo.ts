@@ -7,7 +7,7 @@ export type LogoVariant = 'light' | 'dark';
   imports: [],
   templateUrl: './logo.html',
   host: {
-    class: 'inline-block h-8',
+    class: 'inline-block h-8 text-center',
   },
 })
 export class Logo {

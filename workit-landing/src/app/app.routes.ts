@@ -10,7 +10,7 @@ export const routes: Routes = [
       {
         path: '',
         title: 'Workit - Home',
-        loadComponent: () => import('./features/home/home').then((m) => m.Home),
+        loadComponent: () => import('./pages/home/home').then((m) => m.Home),
       },
     ],
   },

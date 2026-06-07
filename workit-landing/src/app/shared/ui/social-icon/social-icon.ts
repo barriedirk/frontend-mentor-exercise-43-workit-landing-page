@@ -13,7 +13,8 @@ export class SocialIcon {
 
   iconClasses = computed(() => {
     const base =
-      'w-6 h-6 transition-colors duration-200 fill-[#5A5360] group-hover:fill-white';
+      'w-[20px] h-[20px] transition-colors duration-200 fill-[#5A5360] group-hover:fill-white';
+
     return `${base} ${this.customClass()}`;
   });
 }
