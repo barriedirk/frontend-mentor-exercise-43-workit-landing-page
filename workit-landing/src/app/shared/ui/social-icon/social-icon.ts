@@ -4,7 +4,6 @@ import { Component, computed, input } from '@angular/core';
   selector: 'app-social-icon',
   imports: [],
   templateUrl: './social-icon.html',
-  styleUrl: './social-icon.scss',
 })
 export class SocialIcon {
   name = input.required<'facebook' | 'instagram' | 'twitter'>();

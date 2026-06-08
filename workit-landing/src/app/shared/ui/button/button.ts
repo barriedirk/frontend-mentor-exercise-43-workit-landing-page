@@ -11,7 +11,6 @@ import {
   standalone: true,
   imports: [],
   templateUrl: './button.html',
-  styleUrl: './button.scss',
 })
 export class Button {
   variant = input<ButtonLinkVariantProps['variant']>('primary');

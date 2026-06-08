@@ -11,6 +11,5 @@ import { Wrapper } from '@app/shared/ui/wrapper/wrapper';
   selector: 'app-home',
   imports: [Card, CardNumber, CardTitle, CardDescription, FounderCta, Wrapper],
   templateUrl: './home.html',
-  styleUrl: './home.scss',
 })
 export class Home {}
