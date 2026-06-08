@@ -7,7 +7,7 @@ import { Header } from './header';
   selector: 'app-marketing',
   imports: [RouterOutlet, Header, Footer],
   template: `
-    <div class="flex flex-col min-h-screen text-white antialiased">
+    <div class="flex flex-col min-h-screen text-white antialiased relative">
       <app-header />
       <main class="flex-grow">
         <router-outlet />

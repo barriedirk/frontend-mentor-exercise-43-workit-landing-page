@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
-import { Button } from '@shared/ui/button/button';
+import { Link } from '@shared/ui/link/link';
 
 @Component({
   selector: 'app-founder-cta',
-  imports: [Button],
+  imports: [Link],
   templateUrl: './founder-cta.html',
   styleUrl: './founder-cta.scss',
 })

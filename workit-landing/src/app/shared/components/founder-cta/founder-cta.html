@@ -1,11 +1,14 @@
-<section class="w-full">
+<section
+  class="w-full md:max-w-[680px] lg:max-w-[1120px] mx-auto relative flex flex-col items-center gap-10"
+>
   <img
     src="/images/image-founder.webp"
     alt="Louis Graham, founder of WorkIt"
-    class="w-[335px] lg:w-[477px] h-auto"
+    class="w-[335px] lg:w-[477px] aspect-[477/413] object-contain h-auto relative z-0 md:self-start"
+    loading="eager"
   />
-  <div
-    class="bg-slate-900 flex flex-col justify-center gap-7 text-center md:text-left rounded-lg p-8 w-full md:max-w-[504px] lg:max-w-[730px]"
+  <article
+    class="bg-slate-900 flex flex-col justify-center gap-7 text-center md:text-left rounded-lg p-8 md:p-700 w-full md:max-w-[504px] lg:max-w-[730px] relative z-1 mt-[-60px] md:mt-[-150px] lg:mt-[-290px] md:self-end"
   >
     <h2 class="font-serif text-preset-2 text-white">Be the first to test</h2>
     <p class="font-sans text-preset-4 text-white">
@@ -13,6 +16,16 @@
       to become a beta tester for our app and kickstart your company. Apply for
       access below and I’ll be in touch to schedule a call.
     </p>
-    <app-button variant="primary" size="md">Apply for access</app-button>
-  </div>
+    <a
+      app-link
+      variant="primary"
+      size="md"
+      routerLink="/contact"
+      class="inline-block"
+      >Apply for access</a
+    >
+    <div
+      class="hidden md:block absolute bottom-[-80px] md:right-[30px] lg:right-[150px] pointer-events-none w-[221px] h-[212px] bg-pattern-3 bg-no-repeat z-3"
+    ></div>
+  </article>
 </section>

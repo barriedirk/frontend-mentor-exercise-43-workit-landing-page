@@ -1,0 +1,36 @@
+<header class="mb-24 md:mb-30 relative z-0">
+  <div class="relative border-curve-bottom w-full md:pb-30">
+    <app-wrapper
+      classNames="relative p-10 pb-30 flex flex-col items-center gap-9
+  bg-[url('/images/bg-pattern-3.svg')] bg-no-repeat bg-[position:left_100%]
+  after:absolute after:content-['']
+  after:bottom-[3%] after:right-0 after:w-[150px] after:h-[150px]
+  after:bg-[url('/images/bg-pattern-2.svg')] after:bg-no-repeat after:bg-[position:center] after:bg-contain"
+    >
+      <nav class="w-full flex flex-row justify-between items-center">
+        <app-logo variant="light" />
+        <a
+          app-link
+          variant="link"
+          size="md"
+          routerLink="/features"
+          class="text-white"
+          >Apply for access</a
+        >
+      </nav>
+
+      <h1
+        class="font-serif text-preset-2 md:text-preset-1 text-center max-w-[14ch]"
+      >
+        Data <span class="underline decoration-green">tailored</span> to your
+        needs.
+      </h1>
+      <a app-link variant="primary" routerLink="/features">Learn more</a>
+    </app-wrapper>
+  </div>
+  <img
+    src="/images/image-hero.webp"
+    alt="Louis Graham, founder of WorkIt"
+    class="w-[300px] md:w-[540px] h-auto aspect-[1534/882] object-contain absolute -bottom-[20%] left-[50%] -translate-x-[50%] z-30"
+  />
+</header>

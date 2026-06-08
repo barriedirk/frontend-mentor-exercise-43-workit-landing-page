@@ -82,6 +82,8 @@
    3. Tailwind CSS Theme Overrides & Extensions
    ---------------------------------------------------- */
 @theme {
+  --background-image-pattern-3: url("/images/bg-pattern-3.svg");
+
   /* Font Family Mappings */
   --font-serif: "Fraunces", serif;
   --font-sans: "Manrope", sans-serif;
@@ -144,4 +146,10 @@ body {
   color: var(--color-slate-500);
   scroll-behavior: smooth;
   overflow-x: hidden;
+}
+
+.border-curve-bottom {
+  position: relative;
+  background-color: var(--color-slate-900);
+  clip-path: ellipse(150% 100% at 50% 0%);
 }

@@ -13,13 +13,13 @@ import { SocialIcon } from '@shared/ui/social-icon/social-icon';
       >
         <app-logo variante="dark" />
         <div class="flex flex-row justify-between">
-          <a app-link variant="transparent" routerLink="/features">
+          <a app-link variant="icon" size="link" routerLink="/features">
             <app-social-icon name="facebook" />
           </a>
-          <a app-link variant="transparent" routerLink="/about"
+          <a app-link variant="icon" size="link" routerLink="/about"
             ><app-social-icon name="twitter" />
           </a>
-          <a app-link variant="transparent" routerLink="/contact">
+          <a app-link variant="icon" size="link" routerLink="/contact">
             <app-social-icon name="instagram" />
           </a>
         </div>
